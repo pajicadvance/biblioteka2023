@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class Knjiga {
-	
+
 	private String naslov;
 	private long isbn;
 	private List<Autor> autori;
@@ -62,6 +62,5 @@ public class Knjiga {
 		Knjiga other = (Knjiga) obj;
 		return isbn == other.isbn;
 	}
-	
 	
 }
